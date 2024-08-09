@@ -1,6 +1,6 @@
-# CPP Project Boilerplate
+# LFU and LRU Cache
 
-This is a boilerplate for a C++ project.
+This is simple c++ implementation of LFU and LRU cache.
 
 ## Setup
 
