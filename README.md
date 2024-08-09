@@ -2,6 +2,10 @@
 
 This is simple c++ implementation of LFU and LRU cache.
 
+## LFU Cache
+
+Look at the problem statement and design [here](docs/lfu-cache.md).
+
 ## Setup
 
 ### Prerequisites
