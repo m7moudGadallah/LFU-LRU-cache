@@ -20,6 +20,22 @@ Read about LFU Cache [here](https://en.wikipedia.org/wiki/Least_frequently_used)
 - We will use a `capacity` variable to store the capacity of the cache.
 - We will use a `cacheSize` variable to store the current size of the cache.
 
+## Implementation
+
+- Look at header file [lfu_cache.h](../include/lfu-cache.hpp) for the class definition.
+- Look at implementation file [lfu_cache.cpp](../src/lfu-cache.cpp) for the class implementation.
+
+## Complexity Analysis
+
+**Time Complexity:**
+
+- `get`: O(1)
+- `put`: O(1)
+
+**Space Complexity:**
+
+- O(capacity) , where capacity is the capacity of the cache.
+
 ## Future Enhancements
 
 - Enhance the implementation to support templated key and value types.
