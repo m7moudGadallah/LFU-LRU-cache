@@ -140,3 +140,7 @@ The project has the following file structure:
 - `Makefile`: Contains the build, run, clean, and debug commands.
 - `.clang-format`: Contains the formatting style for clang-format.
 - `.vscode/`: Contains the Visual Studio Code settings and configurations for C++.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
