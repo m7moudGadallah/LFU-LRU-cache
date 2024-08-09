@@ -17,6 +17,22 @@ Read about LRU Cache [here](https://en.wikipedia.org/wiki/Cache_replacement_poli
 - We will use `list` to store the nodes sorted from most recently used to least recently used.
 - We will use `capacity` variable to store the capacity of the cache.
 
+## Implementation
+
+- Look at header file [lru_cache.h](../include/lru-cache.hpp) for the class definition.
+- Look at implementation file [lru_cache.cpp](../src/lru-cache.cpp) for the class implementation.
+
+## Complexity Analysis
+
+**Time Complexity:**
+
+- `get`: O(1)
+- `put`: O(1)
+
+**Space Complexity:**
+
+- O(capacity) , where capacity is the capacity of the cache.
+
 ## Future Enhancements
 
 - Enhance the implementation to support templated key and value types.
